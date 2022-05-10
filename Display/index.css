@@ -1,0 +1,53 @@
+
+/* display: inline, block, inline-block, none // для дочернего класса
+   display: flex // для родительского класса */
+/* .nav-links {
+    display: inline-block;
+    width: 200px;
+} */
+
+/* .links {
+    display: flex; */
+    /* flex-direction:  column; */
+    /* justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.links a {
+    width: 40%;
+    text-decoration: none;
+    color: black;
+} */
+
+/* .outer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.child {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.text {
+    width: 83%;
+    margin-left: 30px;
+}
+
+.parent div:nth-child(2) {
+    flex-direction: row-reverse;
+}
+

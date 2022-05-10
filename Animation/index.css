@@ -1,0 +1,44 @@
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    transition: width 4s, background-color 2s;
+}
+
+.box:hover {
+    background-color: red;
+    width: 500px;
+} */
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    animation-name: changes;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* .box:hover {
+    transform: rotate(50deg);
+    transform: skewX(30deg);
+    transform: scale(2);
+    transform: translate(20px, 40px);
+} */
+
+@keyframes changes {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        margin-left: 100px;
+        transform: scale(0.4);
+        border-radius: 50%;
+    }
+
+    100% {
+        margin-left: 200px;
+        transform: scale(2);
+    }
+}

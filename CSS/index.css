@@ -1,0 +1,24 @@
+/* External */
+ul li {
+    color: rgba(189, 87, 28, 0.5);
+    font-size: 34px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLnWW_4_fCR1Zze9-jo_AG-EHWgA9iDqHndg&usqp=CAU); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: green;
+}

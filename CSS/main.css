@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 200px;
+    height: 200px; /* В д/з поставить сюда 100vh */
+    background-color: yellow;
+    margin: 20px auto;
+    padding-top: 50px;
+    color: white;
+    border-left: 7px dashed black;
+    text-align: center;
+    font-weight: bold; 
+    /* border-radius: 50%; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
